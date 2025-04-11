@@ -25,12 +25,12 @@ return {
             indent = { enable = true },  
             incremental_selection = {
                 enable = true,
---                keymaps = {
---                    init_selection = "<leader>ss", -- set to `false` to disable one of the mappings
---                    node_incremental = "<leader>si",
---                    scope_incremental = "<leader>sc",
---                    node_decremental = "<leader>sd",
---                },
+                keymaps = {
+                    init_selection = "<leader>ss", -- start select
+                    node_incremental = "<leader>se", -- select expand
+                    scope_incremental = "<leader>sc", -- select scope
+                    node_decremental = "<leader>sd", -- select decrease
+                },
             },
         })
     end
