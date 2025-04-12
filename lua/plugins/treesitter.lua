@@ -18,7 +18,9 @@ return {
                 "python",
                 "css",
                 "jinja",
-                "yaml"
+                "yaml",
+                "kdl",
+                "bash",
             },
             sync_install = false,
             highlight = { enable = true },
