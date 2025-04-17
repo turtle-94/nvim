@@ -7,6 +7,7 @@ return {
     require('github-theme').setup({
       -- ...
     })
+
+    vim.cmd('colorscheme github_dark_high_contrast')
   end,
--- theme is set in auto_dark_mode.lua
 }
